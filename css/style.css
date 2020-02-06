@@ -258,6 +258,7 @@ body {
     .menu-button:before {
         content: '';
         display: block;
+        position: absolute;
         width: 30px;
         height: 2px;
         background-color: #fff;
@@ -268,11 +269,12 @@ body {
     .menu-button:after {
         content: '';
         display: block;
+        position: absolute;
         width: 30px;
         height: 2px;
         background-color: #fff;
         transition: transform 0.2s;
-        margin-top: 12px;
+        margin-top: 7px;
     }
 
     .menu-button-active {
@@ -281,12 +283,12 @@ body {
 
     .menu-button-active:before {
         transform: rotate(45deg);
-        margin: 0;
+        margin-top: 0;
     }
 
     .menu-button-active:after {
         transform: rotate(-45deg);
-        margin: 0;
+        margin-top: 0;
     }
 
     .header {
