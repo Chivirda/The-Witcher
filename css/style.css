@@ -86,6 +86,8 @@ body {
 }
 
 .button {
+    display: inline-block;
+    text-decoration: none;
     background-color: #9D2929;
     border-radius: 8px;
     color: #FFFFFF;
@@ -95,6 +97,10 @@ body {
     font-size: 14px;
 }
 
+.button:active {
+    color: #FFFFFF;
+}
+
 .main-content {
     display: flex;
     align-items: center;
@@ -102,6 +108,9 @@ body {
 }
 
 .play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #9D2929;
     width: 100px;
     height: 100px;
@@ -126,6 +135,7 @@ body {
     border-radius: 50%;
     left: -16px;
     top: -16px;
+    animation: pulse 1s ease-in 3s infinite;
 }
 
 /* slider */
